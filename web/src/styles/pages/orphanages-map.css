@@ -1,7 +1,6 @@
 #page-map {
   width: 100vw;
   height: 100vh;
-
   position: relative;
   display: flex;
 }
@@ -37,6 +36,22 @@
 
 #page-map aside footer strong {
   font-weight: 800;
+}
+
+#page-map aside footer .go-back-button {
+  margin-top: 0.5em;
+  width: 60px;
+  height: 60px;
+  background: #ffd666;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.8s;
+}
+
+#page-map aside footer .go-back-button:hover{
+  background: #96feff;
 }
 
 #page-map .leaflet-container {

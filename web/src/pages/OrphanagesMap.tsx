@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FiPlus } from "react-icons/fi";
+import { FiArrowLeft, FiPlus } from "react-icons/fi";
 import { Map, TileLayer } from "react-leaflet";
 
 import "leaflet/dist/leaflet.css";
@@ -22,6 +22,13 @@ function OrphanagesMap() {
         <footer>
           <strong>Itu</strong>
           <span>São Paulo</span>
+          <Link
+            to="/"
+            className="go-back-button"
+            title="Voltar para a tela inicial"
+          >
+            <FiArrowLeft size={26} color="rgba(0, 0, 0, 0.6)" />
+          </Link>
         </footer>
       </aside>
 

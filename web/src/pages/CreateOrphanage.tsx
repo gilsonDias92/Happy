@@ -1,19 +1,19 @@
 import React from "react";
 import { Map, Marker, TileLayer } from "react-leaflet";
-
 import { FiPlus } from "react-icons/fi";
 
-import mapIcon from '../utils/mapIcon'  ;
-import "../styles/pages/create-orphanage.css";
+import mapIcon from "../utils/mapIcon";
 import Sidebar from "../components/Sidebar";
+
+import "../styles/pages/create-orphanage.css";
 
 export default function OrphanagesMap() {
   // const { goBack } = useHistory();
 
   return (
     <div id="page-create-orphanage">
-    <Sidebar/>
-      
+      <Sidebar />
+
       <main>
         <form className="create-orphanage-form">
           <fieldset>

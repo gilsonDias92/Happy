@@ -1,2 +1,5 @@
 [1015/160223.402:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
 [1025/121742.092:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1028/113445.461:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1028/113445.468:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\gilsi\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\148ec24a-6b86-4e43-b003-09db8aab9f91: O sistema não pode encontrar o caminho especificado. (0x3)
+[1031/035452.530:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
